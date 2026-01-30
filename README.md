@@ -77,7 +77,7 @@ It is a **full analytical workflow** designed to mirror how a **municipal police
 ## Tableau Dashboard
 
 ### Dashboard Screenshots
-*(Add Tableau screenshots here)*
+
 
 ```
 /visuals
