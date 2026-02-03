@@ -17,7 +17,7 @@ This project was built to demonstrate **how a Crime & Data Analyst can use SQL a
 
 - Strategic crime pattern analysis (temporal & spatial)  
 - SQL-based ETL and data validation  
-- Hotspot and emerging trend detection  
+- Hotspot trend detection  
 - Real-time and monthly summary reporting  
 - Translating analysis into **resource deployment insights**  
 - Communicating findings clearly for **non-technical stakeholders**  
@@ -25,9 +25,8 @@ This project was built to demonstrate **how a Crime & Data Analyst can use SQL a
 ## Core Analytical Questions
 
 1. **When** do crime incidents occur most frequently?  
-2. **Where** are incidents concentrated, and which areas are **emerging hotspots**?  
-3. **What types of offenses** are changing over time?  
-4. How can these insights inform **patrol planning, staffing, and enforcement priorities**?  
+2. **Where** are incidents concentrated?  
+3. How can these insights inform **patrol planning, staffing, and enforcement priorities**?  
 
 ## Data Overview
 
@@ -52,25 +51,6 @@ This project was built to demonstrate **how a Crime & Data Analyst can use SQL a
 - Spatial grid fields for hotspot analysis  
 - Optimized for Tableau dashboards  
 
-## Analysis Framework
-
-### Monthly & Real-Time Overview
-- Monthly incident trends  
-- Month-over-month (MoM) changes  
-- Recent 30-day vs. prior 30-day comparisons  
-
-### Temporal Pattern Analysis
-- Day-of-week patterns  
-- Hour-of-day analysis (nighttime focus)  
-
-### Spatial Pattern & Hotspot Analysis
-- District and Neighborhood concentration  
-- Emerging hotspot detection  
-
-### Offense Mix & Operational Insights
-- Offense category trends  
-- Reporting lag analysis  
-
 ## Tableau Dashboard
 
 ### Dashboard Screenshots
@@ -81,13 +61,34 @@ This project was built to demonstrate **how a Crime & Data Analyst can use SQL a
 
 ![Dashboard Overview](./Visualization/db_overview.png)
 
+## Analysis Framework
+
+### Monthly & Real-Time Overview
+- Month-over-month (MoM) changes  
+Month-over-month analysis shows a consistent seasonal pattern, with incident volumes increasing during the summer months and declining during the winter months.
+![MoM_pct_chg](./Visualization/MoM_pct_chg.png)
+
+
+### Temporal Pattern Analysis
+- Day-of-week patterns  
+Day-of-week analysis indicates elevated incident volumes on Thursdays, Fridays, and Saturdays, suggesting increased activity toward the end of the week.<br>
+![dayofweekpt](./Visualization/day_of_week.png)
+
+- Hour-of-day analysis (nighttime focus)<br> 
+Hour-of-day analysis indicates elevated incident volumes between 9:00 PM and 4:00 AM, highlighting a concentration of activity during nighttime hours.<br>
+![Hour-of-day](./Visualization/hr_of_day.png) 
+
+### Spatial Pattern & Hotspot Analysis
+- District and Neighborhood concentration  
+![d3](./Visualization/d3.png)<br>
+![d6](./Visualization/d6.png)
+
 
 ## Recommendations
 
-- Deploy **targeted patrols** to emerging hotspot areas  
-- Adjust **shift schedules** to align with crime peaks  
-- Monitor changing offense categories  
-- Improve reporting workflows  
+- Nighttime hour-of-day patterns reveal higher incident activity between 9:00 PM and 4:00 AM, providing actionable insight for overnight staffing and patrol allocation.
+- Day-of-week trends reveal higher incident counts on Thursdays, Fridays, and Saturdays, providing useful insight for end-of-week staffing and resource allocation.  
+- Month-over-month analysis reveals a clear seasonal pattern, where incident counts increase throughout the summer and decrease during the winter, providing useful context for proactive staffing and resource planning.  
 
 ## Skills Demonstrated
 
