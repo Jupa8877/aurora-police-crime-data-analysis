@@ -56,8 +56,8 @@ This project was built to demonstrate **how a Crime & Data Analyst can use SQL a
 ### Dashboard Screenshots
 - Tableau Public Link: https://public.tableau.com/app/profile/jun.park5694/viz/Denver_Crime_visualization/Dashboard1?publish=yes
 - Dashboard Action: 
-1. Filtering district on Hotspot Map and Neighborhood Hotspots by hovering on District Ranking
-2. Filtering district on Hotspot map by hovering on Neighborhood Ranking
+1. Filtering district on Hotspot Map and Neighborhood Hotspots by selecting on District Ranking
+2. Filtering district on Hotspot map by selecting on Neighborhood Ranking
 
 ![Dashboard Overview](./Visualization/db_overview.png)
 
