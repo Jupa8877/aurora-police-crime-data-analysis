@@ -88,6 +88,9 @@ Hour-of-day analysis indicates elevated incident volumes between 9:00 PM and 4:0
 
 ## Recommendations
 
+- Targeted Patrol Reinforcement in Emerging Districts:
+Recent growth analysis identifies Districts 5 and 6 as emerging hotspots. Increasing patrol presence and nighttime support in these districts may help address rising incident activity and improve operational coverage.
+
 - Overnight Staffing Optimization:
 Hour-of-day analysis indicates elevated incident activity between 9:00 PM and 4:00 AM. Consider prioritizing overnight staffing and patrol coverage during these hours to better align resources with observed demand.
 
