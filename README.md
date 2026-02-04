@@ -17,15 +17,15 @@ This project was built to demonstrate **how a Crime & Data Analyst can use SQL a
 
 - Strategic crime pattern analysis (temporal & spatial)  
 - SQL-based ETL and data validation  
-- Hotspot trend detection  
-- Real-time and monthly summary reporting  
+- Hotspot and emerging trend detection  
+- Monthly summary reporting  
 - Translating analysis into **resource deployment insights**  
 - Communicating findings clearly for **non-technical stakeholders**  
 
 ## Core Analytical Questions
 
 1. **When** do crime incidents occur most frequently?  
-2. **Where** are incidents concentrated?  
+2. **Where** are incidents concentrated, and which areas are emerging hotspots?  
 3. How can these insights inform **patrol planning, staffing, and enforcement priorities**?  
 
 ## Data Overview
@@ -56,7 +56,7 @@ This project was built to demonstrate **how a Crime & Data Analyst can use SQL a
 ### Dashboard Screenshots
 - Tableau Public Link: https://public.tableau.com/app/profile/jun.park5694/viz/Denver_Crime_visualization/Dashboard1?publish=yes
 - Dashboard Action: 
-1. Filtering district on Hotspot Map and Neighborhood Hotspots by selecting on District Ranking
+1. Filtering district on District Monthly Incident Trend, Hotspot Map and Neighborhood Hotspots by selecting on District Ranking (Emerging Hotspot Visualization)
 2. Filtering district on Hotspot map by selecting on Neighborhood Ranking
 
 ![Dashboard Overview](./Visualization/db_overview.png)
@@ -79,16 +79,23 @@ Hour-of-day analysis indicates elevated incident volumes between 9:00 PM and 4:0
 ![Hour-of-day](./Visualization/hr_of_day.png) 
 
 ### Spatial Pattern & Hotspot Analysis
-- District and Neighborhood concentration  
+- District 3 shows higher total incident counts, consistent with its larger geographic area, while District 6 demonstrates a disproportionately rapid increase in incidents relative to its smaller area size.
+- Geo-grid aggregation is used to identify localized hotspots and reduce spatial noise.
+- Emerging hotspots are identified based on recent growth patterns, revealing areas of intensified activity within smaller but rapidly changing districts.
 ![d3](./Visualization/d3.png)<br>
 ![d6](./Visualization/d6.png)
 
 
 ## Recommendations
 
-- Nighttime hour-of-day patterns reveal higher incident activity between 9:00 PM and 4:00 AM, providing actionable insight for overnight staffing and patrol allocation.
-- Day-of-week trends reveal higher incident counts on Thursdays, Fridays, and Saturdays, providing useful insight for end-of-week staffing and resource allocation.  
-- Month-over-month analysis reveals a clear seasonal pattern, where incident counts increase throughout the summer and decrease during the winter, providing useful context for proactive staffing and resource planning.  
+- Overnight Staffing Optimization:
+Hour-of-day analysis indicates elevated incident activity between 9:00 PM and 4:00 AM. Consider prioritizing overnight staffing and patrol coverage during these hours to better align resources with observed demand.
+
+- End-of-Week Resource Allocation:
+Day-of-week trends show consistently higher incident volumes on Thursdays, Fridays, and Saturdays. Adjusting staffing levels and patrol deployment toward the end of the week may improve operational responsiveness during peak periods.
+
+- Seasonal Planning and Proactive Deployment:
+Month-over-month analysis reveals a clear seasonal pattern, with incident counts increasing during summer months and decreasing during winter. This trend can inform proactive staffing plans and seasonal resource adjustments to anticipate periods of higher activity.  
 
 ## Skills Demonstrated
 
