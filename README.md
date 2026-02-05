@@ -15,12 +15,11 @@ This project was built to demonstrate **how a Crime & Data Analyst can use SQL a
 
 ## What I Am Demonstrating
 
-- Strategic crime pattern analysis (temporal & spatial)  
-- SQL-based ETL and data validation  
-- Hotspot and emerging trend detection  
-- Monthly summary reporting  
-- Translating analysis into **resource deployment insights**  
-- Communicating findings clearly for **non-technical stakeholders**  
+- Practical use of SQL (MySQL) for ETL, data validation, and analytical querying
+- Temporal analysis to identify seasonal, weekly, and nighttime activity patterns
+- Spatial analysis using district, neighborhood, and geo-grid aggregation
+- Identification of emerging hotspots based on recent growth trends
+- Translation of analytical findings into operational and resource planning recommendations
 
 ## Core Analytical Questions
 
